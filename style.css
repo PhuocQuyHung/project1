@@ -1,0 +1,32 @@
+h1 {
+  color: red;
+  text-transform: uppercase;
+}
+
+#id1 {
+  background-image: url(./image/z6023840661715_27f4c377561d094b4331ce85ff0471c2.jpg);
+}
+
+table {
+  text-align: center;
+}
+
+body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 18px;
+  background-color: rgb(189, 176, 159);
+}
+
+img {
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}
+
+input:checked ~ img {
+  opacity: calc(0%);
+  visibility: hidden;
+}
